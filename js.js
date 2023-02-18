@@ -1,4 +1,4 @@
-var data = ""
+var data = undefined;
 var initDataTimeInterval = undefined;
 var nowShowDay = new Date();
 //初始化数据
