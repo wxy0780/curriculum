@@ -261,7 +261,7 @@ if(localStorage != undefined){
 }
 
 //获取网络数据
-$.post("data.txt",function (d) {
+$.get("data.txt",function (d) {
     if(d != data){
         //数据有更新
         data = d;
